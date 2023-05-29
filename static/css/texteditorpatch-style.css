@@ -1,0 +1,38 @@
+.docflow-context-menu-editor {
+    position: absolute;
+}
+
+.menu-editor-docflow {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(100 100 100);
+    padding: 10px 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+
+.menu-editor-docflow>li>a {
+    font: inherit;
+    border: 0;
+    padding: 10px;
+    /* padding: 10px 30px 10px 15px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: unset;
+    color: rgb(31 31 31);
+    font-weight: 500;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+
+.menu-editor-docflow>li>:hover {
+    background: rgb(243 243 243);
+    color: rgb(31 31 31);
+}

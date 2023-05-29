@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>docflow</id>
+    <name>Docflow</name>
+    <summary>Pandoc document flow app</summary>
+    <description><![CDATA[Pandoc document flow]]></description>
+    <version>0.0.2</version>
+    <licence>agpl</licence>
+    <author mail="fcrlabunime@gmail.com" >fcrlab</author>
+    <namespace>Docflow</namespace>
+    <category>tools</category>
+    <bugs>https://issuetracker.com</bugs>
+    <dependencies>
+        <nextcloud min-version="23" max-version="23"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Docflow</name>
+            <route>docflow.page.index</route>
+        </navigation>
+    </navigations>
+</info>

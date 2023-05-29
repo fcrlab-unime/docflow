@@ -1,0 +1,15 @@
+{
+    "name": "Typescript Redux React Boilerplate",
+    "description": "React Redux Typescript boilerplate",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "fcrlab"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
