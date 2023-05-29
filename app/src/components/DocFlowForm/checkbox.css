@@ -1,0 +1,77 @@
+.title {
+  margin: 50px 0 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.checkList {
+  min-width: 700px;
+}
+
+.list-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#content[class*="app-"] * {
+  box-sizing: border-box;
+}
+
+.check-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-container > div > input {
+  width: 20px;
+}
+
+.check-container > div > label {
+  position: relative;
+  top: -30px;
+  left: 30px;
+  font-size: 20px;
+}
+
+.checkList > div > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.check-container > div > div > div > div > input {
+  width: 20px;
+}
+
+.check-container > div > div > div > div > label {
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+
+.check-container > div > div {
+  padding-left: 50px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.check-container {
+    margin-bottom: -20px;
+}
+
+.list-container {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.form-container > form {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container > form > button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 130px;
+}

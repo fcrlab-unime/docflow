@@ -1,0 +1,42 @@
+{
+  "include": ["app/"],
+  "compilerOptions": {
+    // "types": ["jest"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@components-app/*": ["app/src/components/*"],
+      "@components-admin/*": ["app/adminSettings/components/*"],
+      "@components-personal/*": ["app/adminSettings/components/*"],
+      "@store-admin/*": ["app/adminSettings/store/*"],
+      "@store-personal/*": ["app/personalSettings/store/*"],
+      "@store-app/*": ["app/src/store/*"],
+      "@ts/*": ["app/common/ts/*"],
+      "@utils/*": ["app/common/utils/*"],
+      "@config/*": ["app/common/config/*"],
+      "@models/*": ["app/common/models/*"],
+      "@common-components/*": ["app/common/components/*"],
+      "@nextcloud/js": ["app/common/utils/nextcloud"]
+    },
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
